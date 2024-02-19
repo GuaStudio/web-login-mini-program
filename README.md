@@ -15,6 +15,7 @@
 * 2.注册Notion到https://www.notion.com注册即可
 * 3.到https://www.notion.so/my-integrations获得Notion的key并填入WeChat.js里
 * 4.创建Notion数据库，按照下图创建
+<img src="https://jihulab.com/guas/gua/-/raw/main/OpenSource/web-login-mini-program/409a12b5de570cd9c17bfa9aa4c4167.png">
 ![PIC1](https://jihulab.com/guas/gua/-/raw/main/OpenSource/web-login-mini-program/409a12b5de570cd9c17bfa9aa4c4167.png)
 * 5.数据库ID填入WeChat.js里
 接下来请开始使用
