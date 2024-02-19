@@ -1,0 +1,15 @@
+{
+    "pages": [
+        "pages/index/index"
+    ],
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "darkmode": true,
+    "themeLocation": "theme.json",
+    "window": {
+      "backgroundTextStyle": "@backgroundTextStyle",
+      "navigationBarBackgroundColor": "@navBackgroundColor",
+      "navigationBarTitleText": "呱呱云",
+      "navigationBarTextStyle": "@navTextStyle"
+    }
+}

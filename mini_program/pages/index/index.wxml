@@ -1,0 +1,24 @@
+<block wx:if="{{scanBtn == true}}">
+    <view class="container">
+        <image src="https://gitcode.net/guaee/gua/-/raw/master/picture/logo/icon.png" class="userinfo-avatar"></image>
+        <text class="text-default">"呱呱云"基础服务小程序</text>
+        <text class="text-default">更多功能正在开发中，敬请期待</text>
+    </view>
+</block>
+
+<block wx:if="{{scanBtn == false}}">
+    <view class="container">
+        <image src="https://gitcode.net/guaee/gua/-/raw/master/picture/logo/icon.png" class="userinfo-avatar"></image>
+        <text class="text-default">您即将登录到"呱呱云账号"</text>
+        <block wx:if="{{loginReq == true}}">
+        <button class="btn-enter" bindtap="loginReq">确认</button>
+        </block>
+        <block wx:if="{{loginReq == false}}">
+            <text class="text-default">{{statusMsg}}</text>
+        </block>
+        <button class="btn-exit" bindtap="loginCancellation">取消</button>
+    </view>
+</block>
+<view class="container">
+    <text class="text-default">Version 1.2.5</text>
+</view>
