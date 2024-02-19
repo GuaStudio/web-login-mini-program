@@ -9,3 +9,18 @@
 ## 3.技术栈
 后端:Express (https://www.expressjs.com.cn)
 数据库:Notion (https://www.notion.com)
+
+## 4.部署教程
+* 1.注册小程序（个人就行）到https://mp.weixin.qq.com注册并填入WeChat.js里
+* 2.注册Notion到https://www.notion.com注册即可
+* 3.到https://www.notion.so/my-integrations获得Notion的key并填入WeChat.js里
+* 4.创建Notion数据库，按照下图创建
+![PIC1](https://jihulab.com/guas/gua/-/raw/main/OpenSource/web-login-mini-program/409a12b5de570cd9c17bfa9aa4c4167.png)
+* 5.数据库ID填入WeChat.js里
+接下来请开始使用
+
+## 5.接口
+* 获取小程序码/api/getQrCode
+* 查询扫码状态/api/getStatus
+* 更新扫码状态/api/updateStatus?Scene=XXXXXXXXXX
+* 写入OPENID /api/updateOpenId?Scene=XXXXXXXXXX&Code=XXXXXXXXXXXXXXXXXXXXXXXX
