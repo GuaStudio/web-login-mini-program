@@ -24,3 +24,5 @@
 * 查询扫码状态/api/getStatus
 * 更新扫码状态/api/updateStatus?Scene=XXXXXXXXXX
 * 写入OPENID /api/updateOpenId?Scene=XXXXXXXXXX&Code=XXXXXXXXXXXXXXXXXXXXXXXX
+## 呱呱网Pro
+https://guapro.com
